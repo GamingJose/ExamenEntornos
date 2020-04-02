@@ -20,5 +20,14 @@ public interface doc
      */
    public abstract String escribirLinea(int x, String line, String file);
    
-   
+    /**
+     * Resumen: Método que calcula el área de una ciudad. Para ello recibe la 
+     * ciudad y devuelve el área de dicha ciudad.
+     * Precondición: La ciudad debe de aparecer en el Set de ciudades
+     * Postcondición: El área debe de ser mayor de 0.
+     *
+     * @param ciudad Recibe un String con el nombre de la ciudad
+     * @return Devuelve el área de dicha ciudad
+     */
+    public abstract int areaCiudad(String ciudad);
 }
